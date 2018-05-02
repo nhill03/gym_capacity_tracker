@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gym Monitor</title>
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400|Rubik:700|Montserrat" rel="stylesheet">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js"></script>
+  <!-- Theme for Graph -->
+  <script src="https://cdn.anychart.com/releases/8.0.1/themes/monochrome.min.js"></script>
+
+  <!-- Hover.css -->
+  <!-- <link rel="stylesheet" href="assets/hover.css" type="text/css" /> -->
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Circle -->
+
+  <!-- Styling and Script -->
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="two-column">
+    <div class="sidebar">
+      <div class="description">
+        <img class="logo" src="/logo.png" alt="Logo">
+        <div class="description-txt">
+          <p>A simple application that monitors the traffic of the Steve Tisch fitness center</p>
+        </div>
+      </div>
+
+      <section class="container">
+        percent
+        drawCircle
+          <svg width="200" height="200">
+            <circle class="outer" cx="100" cy="89" r="88" transform="rotate(-90, 95, 95)"/>
+          </svg>
+        </figure>
+      </section>
+
+
+      <div class="people-summary">
+        <p>business</p>
+        <p>There are approximately toBeReplaced people at the gym.</p>
+      </div>
+    </div>
+  
+    <div class="main-page">
+      <div class="time-menu">
+        <button class="time-btn hvr-underline-from-left" id="day">DAY</button>
+        <button class="time-btn hvr-underline-from-left" id="week">WEEK</button>
+        <button class="time-btn hvr-underline-from-left" id="month">MONTH</button>
+        <button class="time-btn hvr-underline-from-left" id="year">YEAR</button>
+      </div>
+      <div id="graph"></div>
+      
+    </div>
+  </div>
+
+       
+</body>
+</html>
+
+
